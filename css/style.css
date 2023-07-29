@@ -130,6 +130,36 @@ span {
     border-bottom: 1px solid #ddab00; 
 }
 
+
+/* ==== Секция с текст ==== */
+.process {
+    /* margin: 0 35px; */
+    padding: 45px 20px;
+}
+
+.process .regular {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+.semibold {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.process p {
+    font-size: 24px;
+    padding-top: 12px;
+    line-height: 1.2;
+    letter-spacing: .1rem;
+}
+
+
+
+
+
+
 @media (max-width: 415px ) {
 .header__intro {
     margin: 20px 0 20px 0;
