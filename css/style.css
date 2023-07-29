@@ -1,0 +1,184 @@
+
+body {
+    max-width: 100%;
+    background: #161616 url(../img/header_img/Fonts_1400x1087.jpg)  no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1000;
+    color: #595959;
+
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: 400;
+}
+
+span {
+    color: #ddab00;
+}
+
+.ylove::first-letter {
+    color: #ddab00;
+}
+
+/* === Container === */
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+.container-inner {
+    background-color: #fff;
+}
+
+/* === Intro === */
+.intro {
+    width: 100%;
+    color: #fff
+}
+
+.header__intro {
+    margin: 110px 0 60px 0 ;
+    padding: 0 30px;
+    display: block;
+}
+
+.intro__title {
+    font-size: 200px;
+    font-weight: bold;
+    margin-bottom: 11px;
+    padding: 0;
+    line-height: 0.8;
+    letter-spacing: -0.05em;
+}
+
+.intro__subtitle {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.intro__download {
+    font-size: 18px;
+    color: #ddab00;
+}
+
+.intro__download:hover {
+    color: #fff;
+    transition: .2s linear;
+    border-bottom: 1px solid #ddab00;
+}
+
+/* === Header === */
+.header {
+    width: 100%;
+}
+
+.header__inner {
+    width: 100%;
+    min-height: 305px;
+    color: #fff;
+
+    position: relative;
+    background-color: #161616;
+}
+
+/* === Фото в html как заставка блока header === */
+.header__photo {
+    width: 100%;
+}
+
+.header__basic{
+    width: 100%;
+    margin: 70px auto;
+    padding: 0 40px;
+
+    position: absolute;
+}
+
+.header__title {
+    font-size: 60px;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+
+    font-weight: bold;
+}
+
+/* === Header Hav === */
+.nav {
+    font-size: 18px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_link {
+    margin-right: 30px;
+    color: #ddab00;
+    padding-bottom: 2px;
+}
+
+.nav_link:last-child{
+    margin-right: 0;
+}
+
+.nav_link:hover {
+    color: #fff;
+    transition: .2s linear;
+    border-bottom: 1px solid #ddab00; 
+}
+
+@media (max-width: 415px ) {
+.header__intro {
+    margin: 20px 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.intro__title {
+    font-size: 80px;
+    /* text-align: center; */
+}
+
+.intro__subtitle, .intro__download {
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+
+/* ======== */
+.header__inner {
+    min-height: auto;
+}
+
+.header__basic {
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.header__title {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    margin-bottom: 50px;
+}
+
+.header__photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav {
+    font-size: 14px;
+    justify-content: center;
+}
+
+.nav_link {
+    margin-right: 20px;
+}
+    
+}

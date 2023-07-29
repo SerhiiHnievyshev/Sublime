@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/MyriadPro-Bold.woff"),
+        url("/fonts/MyriadPro-Bold.ttf"),
+        url("/fonts/MyriadPro-Bold.eot");
+    font-weight: Bold;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/MyriadPro-It.woff"),
+        url("/fonts/MyriadPro-It.ttf"),
+        url("/fonts/MyriadPro-It.eot");
+    font-weight: normal;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/MyriadPro-Regular.woff"),
+        url("/fonts/MyriadPro-Regular.ttf"),
+        url("/fonts/MyriadPro-Regular.eot");
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/MyriadPro-Semibold.woff"),
+        url("/fonts/MyriadPro-Semibold.ttf"),
+        url("/fonts/MyriadPro-Semibold.eot");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* font-display: swap; - Для быстрой и более корректной загрузки шрифтов */
