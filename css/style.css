@@ -160,7 +160,7 @@ span {
 
 
 
-@media (max-width: 415px ) {
+@media (max-width: 480px ) {
 .header__intro {
     margin: 20px 0 20px 0;
     padding: 0;
